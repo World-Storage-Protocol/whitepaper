@@ -1,14 +1,43 @@
-# 分布式存储基础设施
+# 简易去中心化存储方案
+去中心化存储（Decentralized Storage）不同于分布式存储（Distributed Storage）。分布式存储已经广泛用于 IT 产业，比较出名的有 [CDN](https://en.wikipedia.org/wiki/Content_delivery_network)，[分布式数据库](https://zh.wikipedia.org/zh-cn/%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93)等，虽然它们的组成部分是分布在不同的地理位置，但是其控制主体仍是某一实体。而去中心化存储将使用无准入机制，因此没有一个实体能控制整个网络。
 
-## `Contents`
-- [分布式存储基础设施](#%e5%88%86%e5%b8%83%e5%bc%8f%e5%ad%98%e5%82%a8%e5%9f%ba%e7%a1%80%e8%ae%be%e6%96%bd)
-  - [Contents](#contents)
-  - [碎碎念](#%e7%a2%8e%e7%a2%8e%e5%bf%b5)
+# 目录
+- [简易去中心化存储方案](#%e7%ae%80%e6%98%93%e5%8e%bb%e4%b8%ad%e5%bf%83%e5%8c%96%e5%ad%98%e5%82%a8%e6%96%b9%e6%a1%88)
+- [目录](#%e7%9b%ae%e5%bd%95)
+- [愿景](#%e6%84%bf%e6%99%af)
+- [背景](#%e8%83%8c%e6%99%af)
+  - [BitTorrent](#bittorrent)
+  - [Swarm](#swarm)
+  - [Storj](#storj)
+  - [PPIO](#ppio)
+  - [IPFS](#ipfs)
+  - [Filecoin](#filecoin)
+- [架构](#%e6%9e%b6%e6%9e%84)
   - [激励系统和共识机制](#%e6%bf%80%e5%8a%b1%e7%b3%bb%e7%bb%9f%e5%92%8c%e5%85%b1%e8%af%86%e6%9c%ba%e5%88%b6)
   - [信誉系统](#%e4%bf%a1%e8%aa%89%e7%b3%bb%e7%bb%9f)
 
-## 碎碎念
-我想做一个分布式存储的基础设施。它没有 Filecoin 那么复杂和强大。准确的讲，目前还只是一个想法而已，甚至很多地方都没有想清楚。
+# 愿景
+这个去中心化存储网络的的理想中的最终形态将是：
+1. 拥有上十亿个节点，每个节点贡献存储空间，并提供数据服务。
+2. 手持设备将只是一个显示工具，涉及到存储的数据以及计算都从该去中心化存储网络中得到。
+
+# 背景
+
+## [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent)
+
+## [Swarm](https://ethersphere.github.io/swarm-home/)
+
+## [Storj](https://storj.io/)
+
+## [PPIO](https://www.pp.io/)
+
+## [IPFS](https://ipfs.io/)
+
+## [Filecoin](https://filecoin.io/)
+
+
+# 架构
+![arch](./images/arch.PNG)
 
 目前的构想是，该基础设施最终形态能提供底层的所有数据服务，主要有以下几类：
 1. 文件存储。这个类似 BT
