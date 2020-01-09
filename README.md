@@ -91,7 +91,9 @@
 
 当然，可以实现 balance[alice][bob] 和 balance[bob][alice] 可以通过协商抵消，否则都需要支付的话就退化到 “物物交换” 了。结算层就是为了提供高效结算。
 
-这些 Token 是否有价值完全取决于市场选择。比如 Bob 提供的服务非常好，因此大家更倾向于支付 balance[x][bob]，其中 x 代表其他人。
+这些 Token 是否有价值完全取决于市场选择。
+1. 比如 Bob 提供的服务非常好，因此大家更倾向于支付 balance[x][bob]，其中 x 代表其他人。
+2. 假设结算层是基于连在波卡上面的平行链，并且波卡其他平行链中有类似 usdt 这样的价值尺度标准。则 Alice 每结算 balance[bob][alice]，可对balance[bob][alice] 做一个标记。后续可以根据 balance[bob][alice] 以往的交易记录，判断 alice 的支付能力很强，则 balance[bob][alice] 就很很坚挺，甚至会成为某种形式的一般等价物。即其他货币可能会以它为标准之类的。
 
 可能存在的问题：  
 alice 和 bob 合伙作恶，因此 balance[alice][bob] 和 balance[bob][alice] 可能都巨大。不过这不影响其他的 token。
