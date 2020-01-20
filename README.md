@@ -12,6 +12,7 @@
   - [PPIO](#ppio)
   - [IPFS](#ipfs)
   - [Filecoin](#filecoin)
+  - [Sia](#sia)
 - [架构](#%e6%9e%b6%e6%9e%84)
   - [服务类型](#%e6%9c%8d%e5%8a%a1%e7%b1%bb%e5%9e%8b)
 - [激励系统和共识机制](#%e6%bf%80%e5%8a%b1%e7%b3%bb%e7%bb%9f%e5%92%8c%e5%85%b1%e8%af%86%e6%9c%ba%e5%88%b6)
@@ -40,6 +41,7 @@
 
 ## [Filecoin](https://filecoin.io/)
 
+## [Sia](https://sia.tech/)
 
 # 架构
 
